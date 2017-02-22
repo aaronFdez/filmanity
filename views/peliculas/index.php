@@ -28,7 +28,6 @@ $this->params['breadcrumbs'][] = $this->title;
             'titulo',
             'ano',
             'duracion',
-            'sinopsis:ntext',
             // 'cartel:ntext',
 
             ['class' => 'yii\grid\ActionColumn'],
