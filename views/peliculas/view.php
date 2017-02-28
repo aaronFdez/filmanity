@@ -36,7 +36,8 @@ $this->params['breadcrumbs'][] = $this->title;
             ]) ?>
         </div>
         <div class="media-right">
-            <?= Html::img($model->cartel, ['title' =>$this->title ]) ?>
+             ?>
+            <?= Html::img($model->cartel, ['title' => $model->titulo , 'width' => '300px', 'height'=>'400px']); ?>
         </div>
     </div>
 </div>

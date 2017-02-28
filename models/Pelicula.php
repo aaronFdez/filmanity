@@ -44,11 +44,12 @@ class Pelicula extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'titulo' => 'Titulo',
-            'ano' => 'Ano',
-            'duracion' => 'Duracion',
+            'titulo' => 'Título',
+            'ano' => 'Año',
+            'duracion' => 'Duración',
             'sinopsis' => 'Sinopsis',
             'cartel' => 'Cartel',
         ];
     }
+
 }
