@@ -52,4 +52,8 @@ class Pelicula extends \yii\db\ActiveRecord
         ];
     }
 
+    public function getCarteles()
+    {
+        return $this->cartel;
+    }
 }

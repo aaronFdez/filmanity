@@ -44,6 +44,12 @@ class PeliculasController extends Controller
         ]);
     }
 
+    public function actionBuscar()
+    {
+        $searchModel = new PeliculasSearch();
+        return $this->render('_search', ['model' => $searchModel]);
+    }
+
     /**
      * Displays a single Pelicula model.
      * @param integer $id

@@ -21,15 +21,15 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'ano') ?>
 
-    <?= $form->field($model, 'duracion') ?>
+     <!-- //$form->field($model, 'duracion')  -->
 
-    <?= $form->field($model, 'sinopsis') ?>
+     <!-- //$form->field($model, 'sinopsis')  -->
 
-    <?php // echo $form->field($model, 'cartel') ?>
+     <!-- // echo $form->field($model, 'cartel')  -->
 
     <div class="form-group">
-        <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>
-        <?= Html::resetButton('Reset', ['class' => 'btn btn-default']) ?>
+        <?= Html::submitButton('Buscar', ['class' => 'btn btn-primary']) ?>
+        <?= Html::resetButton('Resetear', ['class' => 'btn btn-default']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>
